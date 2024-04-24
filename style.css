@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+            
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bandas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.banda {
+    align-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.banda img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.containerdev{
+    display: flex;
+    }
+    .containerdev img{
+        margin-right: 20px;
+    }
+    .Formulario{
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        border: 1px solid black;
+        padding: 2rem;
+        max-width: 400px;
+        
+       
+
+    }
+    .Assinar{
+        text-decoration: none;
+        padding: 1rem;
+        background-color: aquamarine;
+        color: black;
+        width: 50px;
+        
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 3rem;
+        padding: 2rem;
+        background-color: blueviolet;
+        margin-top: 2rem;
+
+    }
+    footer ul{
+        list-style: none;
+        display:flex;
+
+
+    }
+    
+    
