@@ -44,10 +44,15 @@ h1 {
 
 .containerdev {
     display: flex;
+    align-items: center;
+    padding: 50px 10px;
 }
 
 .containerdev img {
     margin-right: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
 
 .Formulario {
@@ -101,4 +106,38 @@ footer ul {
 
 .superior {
     width: 500px;
+}
+.navibar {
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 51, 47);
+    color: white;
+    /* height: 80px; */
+    align-items: center;
+
+}
+.detalhes {
+    display: flex;
+    align-items: center;
+
+}
+.detalhes img{
+    width: auto;
+    height: 45px;
+    margin-left: 5px;
+
+
+}
+.lista {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.lista a {
+    color: white;
+    text-decoration: none;
+}
+.container h1 {
+    color: rgb(39, 36, 36);
 }
